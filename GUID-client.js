@@ -12,13 +12,14 @@ client.on('connect',() => {
 
   //writing data to the server
   setInterval(() => {
-      client.write(createData());
+    client.write(JSON.stringify(createData()));
   }, 5000);
 });
 
 client.setEncoding('utf8');
 
-client.on('data',function(data){
+client.on('data', (data) => {
+  // need to parse here
   console.log('Data from server:' + data);
 });
 

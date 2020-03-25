@@ -17,10 +17,10 @@ server.on('connection', (socket) => {
   });
 
 socket.on('data', (chunk) => {
-    console.log(chunk.toString());
-    if (chunk.guid && chunk.datetime) {
-        socket.write(createResponse());
-    }
+  const data = JSON.parse(chunk);
+  if (data.guid && data.datetime) {
+    socket.write(JSON.stringify(createResponse()));
+  }
 });
 
   setTimeout(() => {
