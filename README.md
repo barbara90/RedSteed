@@ -5,8 +5,11 @@ Lépj be a `redsteed` mappába a `cd redsteed` parancs kiadásával. Minden tov�
 #Szükséges szoftverek
 
 Node.js: https://nodejs.org/en/
+
 Git: https://git-scm.com/download/
+
 SSH-kulcs: https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html
+
 MongoDB: https://www.mongodb.com/download-center/community
 
 #Telepítés
