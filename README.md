@@ -23,3 +23,6 @@ A servert az `npm start` parancs kiadásával lehet elindtani. A server miután 
 
 ## A client futtatása
 A klienst az `npm run-script client` parancs kiadásával lehet elindítani.
+
+## Adatbázis létrehozása
+Nem szükséges külön létrehozni, a db config mappa tartalmazza a létrehozáshoz szükséges kódot.
